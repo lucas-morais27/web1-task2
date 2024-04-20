@@ -1,0 +1,103 @@
+/* Estilo do cabeçalho */
+header {
+    background-color: #AF8260;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.menu {
+    background-color: #803D3B;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 10;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+img {
+    width: 400px;
+    padding-right: 10px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin-right: 20px; 
+    vertical-align: top; 
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-item figcaption {
+    text-align: center; 
+}
+
+.gallery-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; 
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.highlight {
+    background-color: #E4C59E;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.highlight img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #803D3B;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
